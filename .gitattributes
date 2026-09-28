@@ -1,0 +1,35 @@
+# Normalizar finales de linea a LF en el repositorio.
+# Esto EVITA el error `env: 'sh\r': No such file or directory`
+# que ocurria al ejecutar scripts shell en Linux.
+
+* text=auto eol=lf
+
+# Archivos de texto
+*.py    text eol=lf
+*.sh    text eol=lf
+*.md    text eol=lf
+*.c     text eol=lf
+*.h     text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.inf   text eol=lf
+*.gitignore    text eol=lf
+*.gitattributes text eol=lf
+
+# Binarios: no tocar
+*.bin   binary
+*.png   binary
+*.jpg   binary
+*.iso   binary
+*.tar   binary
+*.tar.gz binary
+*.xex   binary
+*.so    binary
+*.dll   binary
+*.sys   binary
+*.exe   binary
+*.lib   binary
+*.def   binary
+*.pdb   binary

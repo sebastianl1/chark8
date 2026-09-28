@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs generados
+logs/*.log
+*.log
+
+# Artefactos de ejecución
+dumps/*.raw
+dumps/*.shsh2
+work/
+12rd/
+sshramdisk/
+
+# Archivos de firmware grandes (descargables)
+*.ipsw
+*.dmg
+
+# Backups
+*.bak
+*.orig
+*_orig.py
+
+# Credenciales (nunca versionar)
+.env
+*.key
+*.pem
+id_rsa*
+
+# Nor backups (generados por herramientas)
+nor-backups/nor-*
